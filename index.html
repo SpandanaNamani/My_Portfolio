@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spandana Namani | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9cc9a15f69.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!--<img  src="Images/logo.jpeg" alt="logo" class="logo"/>-->
+                <h1 class="name"><span style="color: #ff004f;">S</span>pandana</h1>
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Spandana</span><br>from Hyderabad</h1>
+                <p>Fresher</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------About Section---------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/passphoto.jpeg" alt="image" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Seeking a challenging position to work environment where I can grow and also contribute to the
+                        company growth using my good analytical, and strong technical skills.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2020-2023</span><br>B.Tech in Electronics and Communication Engineering at Malla
+                                Reddy College of Engineering for Women, Medchal Hyderabad</li>
+                            <li><span>2017-2020</span><br>Diploma in Electronics and Communication Engineering at
+                                SDDGWTTI, Hyderabad</li>
+                            <li><span>2016-2017</span><br>SSC at ZP High School, Mandamarri</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents skills" id="skills">
+                        <ul>
+                            <li><span>Java Programming</span></li>
+                            <li><span>Python Programming</span></li>
+                            <li><span>HTML & CSS</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>ReactJS</span></li>
+                            <li><span>MySQL</span></li>
+                            <li><span>Spring</span></li>
+                            <li><span>SpringBoot</span></li>
+                            <li><span>Git & GitHub</span></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Software development Intern, Verizon</span><br>During my six-month internship at
+                                Verizon, I gained hands-on experience in java full-stack development, working on various
+                                projects that enhanced my technical skills. I collaborated with cross-functional teams,
+                                which improved my problem-solving abilities and strengthened my communication and
+                                teamwork skills. This experience not only expanded my understanding of software
+                                development technologies but also equipped me with essesntial soft skills that are vital
+                                in professional environment.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ---------services--------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum rem similique facere. Magnam
+                        vero odit dolorem pariatur natus, quis eos.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>MySQL</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rem similique facere. Magnam
+                        vero odit dolorem pariatur natus, quis eos.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Problem Solving</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rem similique facere. Magnam
+                        vero odit dolorem pariatur natus, quis eos.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------Project---------------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/Furniture Store.png">
+                    <div class="layer">
+                        <h3>Furniture Store Webpage</h3>
+                        <p>Created a Furniture Store Webpage using HTML, CSS and Bootstrap</p>
+                        <a href="https://github.com/SpandanaNamani/Sprint1" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="images/Sprint2 .png">
+                    <div class="layer">
+                        <h3>Furniture Store</h3>
+                        <p>Created a Responsive Furniture Store Webpage using HTML, CSS, Bootstrap and JavaScript</p>
+                        <a href="https://github.com/SpandanaNamani/sprint-2" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="images/Database.png">
+                    <div class="layer">
+                        <h3>Database Application</h3>
+                        <p>Created a Interior Decoration Database Application using Java</p>
+                        <a href="https://github.com/SpandanaNamani/Sprint3" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ------------------contact------------------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>namanispandana2002@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 8790053140</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/spandana_namani/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/spandana-namani-604a9b250/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/SpandanaNamani" target="_blank"><i
+                                class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="images/SpandanaNamani_Resume.pdf" download class="btn btn2">Get my CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Spandana copyright<sup>&copy;</sup> 2023</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
